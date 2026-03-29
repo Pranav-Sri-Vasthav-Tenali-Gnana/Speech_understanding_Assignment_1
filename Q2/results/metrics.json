@@ -1,0 +1,14 @@
+{
+  "Baseline": {
+    "EER (%)": 15.32,
+    "minDCF": 0.0321
+  },
+  "Proposed": {
+    "EER (%)": 8.16,
+    "minDCF": 0.0154
+  },
+  "Improved": {
+    "EER (%)": 39.08,
+    "minDCF": 0.0485
+  }
+}

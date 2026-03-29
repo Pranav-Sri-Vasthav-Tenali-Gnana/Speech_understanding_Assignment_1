@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Large data files
+Q1/LibriSpeech/
+Q2/data/
+*.flac
+*.wav
+*.tar.gz
+
+# Model checkpoints (keep best only if needed)
+Q2/results/checkpoints/checkpoint_epoch*.pt
+Q3/results/model_*.pt
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

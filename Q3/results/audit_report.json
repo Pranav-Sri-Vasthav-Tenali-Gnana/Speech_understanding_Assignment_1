@@ -1,0 +1,58 @@
+{
+  "stats": {
+    "total_speakers": 1212,
+    "gender_counts": {
+      "F": 584,
+      "M": 628
+    },
+    "gender_minutes": {
+      "F": 13622.539999999997,
+      "M": 14553.460000000014
+    },
+    "subset_breakdown": {
+      "test-clean": {
+        "counts": {
+          "M": 20,
+          "F": 20
+        },
+        "minutes": {
+          "M": 162.7,
+          "F": 161.50000000000003
+        }
+      },
+      "train-clean-100": {
+        "counts": {
+          "F": 125,
+          "M": 126
+        },
+        "minutes": {
+          "F": 3023.1800000000003,
+          "M": 3012.23
+        }
+      },
+      "train-clean-360": {
+        "counts": {
+          "F": 439,
+          "M": 482
+        },
+        "minutes": {
+          "F": 10437.86000000002,
+          "M": 11378.530000000012
+        }
+      }
+    },
+    "gender_ratio_M": 0.5182,
+    "gender_ratio_F": 0.4818,
+    "imbalance_ratio": 1.0753,
+    "speaking_time_ratio_M": 0.5165,
+    "speaking_time_ratio_F": 0.4835
+  },
+  "documentation_debt": {
+    "missing_name_field": 1,
+    "unknown_gender": 0,
+    "zero_duration_entries": 0,
+    "undocumented_age": "all speakers \u2014 no age metadata in LibriSpeech",
+    "undocumented_dialect": "all speakers \u2014 no dialect/accent metadata in LibriSpeech",
+    "undocumented_recording_conditions": "no SNR/room/device metadata"
+  }
+}

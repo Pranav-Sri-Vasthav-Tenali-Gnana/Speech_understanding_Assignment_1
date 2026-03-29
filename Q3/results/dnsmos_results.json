@@ -1,0 +1,116 @@
+[
+  {
+    "tag": "M->F",
+    "file": "male_to_female_example1_original.wav",
+    "original": {
+      "proxy_dnsmos": 2.42,
+      "snr_estimate_db": 18.16,
+      "spectral_flatness": -1.4205,
+      "zero_crossing_rate": 0.0327,
+      "energy_entropy": 1.2276
+    },
+    "transformed": {
+      "proxy_dnsmos": 2.327,
+      "snr_estimate_db": 16.69,
+      "spectral_flatness": -1.3483,
+      "zero_crossing_rate": 0.0384,
+      "energy_entropy": 1.1992
+    },
+    "dnsmos_degradation": 0.093
+  },
+  {
+    "tag": "M->F",
+    "file": "male_to_female_example2_original.wav",
+    "original": {
+      "proxy_dnsmos": 2.3,
+      "snr_estimate_db": 15.74,
+      "spectral_flatness": -1.4685,
+      "zero_crossing_rate": 0.0585,
+      "energy_entropy": 1.2098
+    },
+    "transformed": {
+      "proxy_dnsmos": 2.177,
+      "snr_estimate_db": 13.78,
+      "spectral_flatness": -1.3502,
+      "zero_crossing_rate": 0.0724,
+      "energy_entropy": 1.2008
+    },
+    "dnsmos_degradation": 0.123
+  },
+  {
+    "tag": "M->F",
+    "file": "male_to_female_example3_original.wav",
+    "original": {
+      "proxy_dnsmos": 2.437,
+      "snr_estimate_db": 19.5,
+      "spectral_flatness": -1.3935,
+      "zero_crossing_rate": 0.0623,
+      "energy_entropy": 1.2272
+    },
+    "transformed": {
+      "proxy_dnsmos": 2.317,
+      "snr_estimate_db": 17.45,
+      "spectral_flatness": -1.2809,
+      "zero_crossing_rate": 0.0734,
+      "energy_entropy": 1.2222
+    },
+    "dnsmos_degradation": 0.12
+  },
+  {
+    "tag": "F->M",
+    "file": "female_to_male_example1_original.wav",
+    "original": {
+      "proxy_dnsmos": 2.061,
+      "snr_estimate_db": 12.52,
+      "spectral_flatness": -0.8864,
+      "zero_crossing_rate": 0.1054,
+      "energy_entropy": 1.3075
+    },
+    "transformed": {
+      "proxy_dnsmos": 2.03,
+      "snr_estimate_db": 10.68,
+      "spectral_flatness": -1.1179,
+      "zero_crossing_rate": 0.0871,
+      "energy_entropy": 1.3023
+    },
+    "dnsmos_degradation": 0.031
+  },
+  {
+    "tag": "F->M",
+    "file": "female_to_male_example2_original.wav",
+    "original": {
+      "proxy_dnsmos": 2.053,
+      "snr_estimate_db": 13.38,
+      "spectral_flatness": -0.8664,
+      "zero_crossing_rate": 0.14,
+      "energy_entropy": 1.2899
+    },
+    "transformed": {
+      "proxy_dnsmos": 2.008,
+      "snr_estimate_db": 11.43,
+      "spectral_flatness": -1.0591,
+      "zero_crossing_rate": 0.1238,
+      "energy_entropy": 1.2963
+    },
+    "dnsmos_degradation": 0.045
+  },
+  {
+    "tag": "F->M",
+    "file": "female_to_male_example3_original.wav",
+    "original": {
+      "proxy_dnsmos": 2.158,
+      "snr_estimate_db": 16.0,
+      "spectral_flatness": -0.9377,
+      "zero_crossing_rate": 0.1368,
+      "energy_entropy": 1.2828
+    },
+    "transformed": {
+      "proxy_dnsmos": 2.106,
+      "snr_estimate_db": 13.69,
+      "spectral_flatness": -1.0973,
+      "zero_crossing_rate": 0.1218,
+      "energy_entropy": 1.2898
+    },
+    "dnsmos_degradation": 0.052
+  }
+]

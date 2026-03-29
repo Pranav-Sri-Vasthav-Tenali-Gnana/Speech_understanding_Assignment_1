@@ -1,0 +1,34 @@
+data:
+  root: ./data/LibriSpeech
+  subsets:
+    - train-clean-100
+    - train-clean-360
+  test_subset: test-clean
+  embedding_dir: ./data/embeddings
+  extractor: mfcc
+  max_speakers: null
+
+model:
+  embedding_dim: 192
+  latent_dim: 256
+  env_disc_hidden: 128
+
+training:
+  batch_size: 64
+  epochs: 50
+  lr: 0.001
+  lr_decay_factor: 0.75
+  lr_decay_epochs: 8
+  margin: 0.3
+  lambda_spk: 2.0
+  lambda_recons: 1.0
+  lambda_env: 0.5
+  lambda_adv: 0.1
+  lambda_corr: 0.5
+  seed: 42
+  checkpoint_dir: ./results/checkpoints
+
+eval:
+  checkpoint: ./results/checkpoints/best_model.pt
+  num_trials: 5000
+  results_dir: ./results

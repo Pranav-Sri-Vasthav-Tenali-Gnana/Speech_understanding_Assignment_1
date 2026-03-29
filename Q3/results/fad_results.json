@@ -1,0 +1,7 @@
+{
+  "fad_proxy": 421.6379,
+  "mean_feature_diff": 1.8453,
+  "mean_cosine_similarity": 0.9958,
+  "n_files": 100,
+  "transformation": "M -> F"
+}

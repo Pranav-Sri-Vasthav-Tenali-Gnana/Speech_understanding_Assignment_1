@@ -1,0 +1,22 @@
+# data/manifest.txt
+# Q1 — Audio files used
+#
+# Format: filename | source | license | duration | sample_rate | notes
+#
+# ── Common Voice (Mozilla) ──
+# cv-sample-01.wav | Mozilla Common Voice v13 | CC0 | ~4s | 16kHz | English, male speaker
+# cv-sample-02.wav | Mozilla Common Voice v13 | CC0 | ~5s | 16kHz | English, female speaker
+#
+# ── LibriSpeech ──
+# ls-1089-134686-0001.wav | LibriSpeech test-clean | CC BY 4.0 | ~7s | 16kHz | Chapter reading
+# ls-1089-134686-0002.wav | LibriSpeech test-clean | CC BY 4.0 | ~6s | 16kHz | Chapter reading
+#
+# ── ESC-50 (environmental sounds, for SNR analysis) ──
+# esc-rain.wav | ESC-50 | CC BY-NC | ~5s | 44.1kHz | Background noise baseline
+#
+# Download instructions:
+#   Common Voice : https://commonvoice.mozilla.org/en/datasets
+#   LibriSpeech  : https://www.openslr.org/12
+#   ESC-50       : https://github.com/karolpiczak/ESC-50
+#
+# Place downloaded files in this data/ directory before running any script.

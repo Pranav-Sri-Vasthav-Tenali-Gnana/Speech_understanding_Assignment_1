@@ -1,0 +1,50 @@
+[
+  {
+    "speaker_id": 1034,
+    "src_gender": "M",
+    "tgt_gender": "F",
+    "snr_db": 5.158,
+    "original": "examples\\male_to_female_example1_original.wav",
+    "transformed": "examples\\male_to_female_example1_transformed.wav"
+  },
+  {
+    "speaker_id": 1034,
+    "src_gender": "M",
+    "tgt_gender": "F",
+    "snr_db": 5.618,
+    "original": "examples\\male_to_female_example2_original.wav",
+    "transformed": "examples\\male_to_female_example2_transformed.wav"
+  },
+  {
+    "speaker_id": 1034,
+    "src_gender": "M",
+    "tgt_gender": "F",
+    "snr_db": 5.386,
+    "original": "examples\\male_to_female_example3_original.wav",
+    "transformed": "examples\\male_to_female_example3_transformed.wav"
+  },
+  {
+    "speaker_id": 103,
+    "src_gender": "F",
+    "tgt_gender": "M",
+    "snr_db": 3.459,
+    "original": "examples\\female_to_male_example1_original.wav",
+    "transformed": "examples\\female_to_male_example1_transformed.wav"
+  },
+  {
+    "speaker_id": 103,
+    "src_gender": "F",
+    "tgt_gender": "M",
+    "snr_db": 3.298,
+    "original": "examples\\female_to_male_example2_original.wav",
+    "transformed": "examples\\female_to_male_example2_transformed.wav"
+  },
+  {
+    "speaker_id": 103,
+    "src_gender": "F",
+    "tgt_gender": "M",
+    "snr_db": 2.846,
+    "original": "examples\\female_to_male_example3_original.wav",
+    "transformed": "examples\\female_to_male_example3_transformed.wav"
+  }
+]
